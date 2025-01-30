@@ -33,21 +33,17 @@
     "create-symlink-webpack-plugin": "^1.0.1",
     "css-loader": "^4.3.0",
     "cssnano": "^4.1.10",
-    "cypress": "^10.8.0",
-    "cypress-audit": "^1.1.0",
     "dotenv": "^8.2.0",
     "file-loader": "^6.1.0",
     "glob-all": "^3.2.1",
     "html-webpack-plugin": "^4.5.0",
     "ignore-loader": "^0.1.2",
-    "imagemin": "^7.0.1",
+    "imagemin": "^8.0.0",
     "imagemin-gifsicle": "^7.0.0",
-    "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^8.0.0",
-    "imagemin-webp": "^6.0.0",
+    "imagemin-webp": "^8.0.0",
     "imagemin-webp-webpack-plugin": "^3.3.3",
-    "img-loader": "^3.0.2",
+    "img-loader": "^4.0.0",
     "mini-css-extract-plugin": "^0.11.2",
     "moment": "^2.29.4",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
@@ -140,8 +136,13 @@
   },
   "dependencies": {
     "alpinejs": "^2.8.2",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
     "sanitize.css": "^12.0.1",
     "swiper": "^6.8.4",
     "tailwindcss": "^2.2.19"
+  },
+  "overrides": {
+    "sharp": "^0.32.6"
   }
 }
