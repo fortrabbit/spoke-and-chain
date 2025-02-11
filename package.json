@@ -143,5 +143,8 @@
     "sanitize.css": "^12.0.1",
     "swiper": "^6.8.4",
     "tailwindcss": "^2.2.19"
+  },
+  "overrides": {
+    "sharp": "^0.32.6"
   }
 }
